@@ -1,0 +1,313 @@
+STEAL A COMPUTER! Game Concept — Updated Planning Draft Status: Early
+development planning; core direction partially decided, many systems
+still open
+
+============================================================ 1. CORE
+CONCEPT ============================================================
+
+Steal A Computer! is a Roblox game about building computers using
+real-world-inspired PC components that players choose and physically
+assemble themselves.
+
+Each player has a personal office in a city-themed world. The computers
+they build and the hardware they collect are central to their progress,
+income, hacking abilities, and cybersecurity defenses.
+
+The intended experience combines: - Physical PC building and hardware
+choices - Progression through earning and spending money - Automatic
+crypto mining - Hacking, stealing, and defending against other players -
+Strategic choices without making the game overly complicated
+
+The current direction is to make computer hardware feel physical and
+meaningful. Players should be able to carry GPUs, install them into
+physical slots, expand their mining rigs, and improve their setup over
+time.
+
+============================================================ 2. WORLD
+AND PLAYER OFFICES
+============================================================
+
+-   The game world has a city theme.
+-   Each player has their own area designed to look like an office.
+-   Players’ offices are arranged in a circle around the center of the
+    map.
+-   The central area contains:
+    -   A computer-component store
+    -   A bank
+    -   Space for occasional NPC merchants to appear
+
+The office is the player’s personal space for their computers, mining
+equipment, and security setup.
+
+The office is also the destination players must successfully return to
+when carrying stolen GPUs if they want to keep those GPUs permanently.
+
+============================================================ 3. BUYING
+AND COLLECTING PC COMPONENTS
+============================================================
+
+Players buy components from a computer-component store in the center of
+the city.
+
+Stock system: - Some components are commonly available. - Rare,
+powerful, or uncommon components appear less frequently and have limited
+stock. - GPUs are intended to be especially rare compared with other
+components.
+
+An occasional NPC merchant may also appear in the central area and
+offer: - Rare GPUs with limited stock - USB drives containing hacking
+skills or abilities
+
+GPU inventory and carrying: - Players have a limited capacity for
+carrying GPUs. - The initial target is around 2–3 ordinary GPUs at a
+time. - Some special GPUs may take up more inventory space. - Obtainable
+backpacks may increase a player’s carrying capacity.
+
+The exact inventory interface, backpack progression, and special GPU
+capacity rules are still open for further design.
+
+============================================================ 4. PHYSICAL
+COMPUTER ASSEMBLY AND MINING RIGS
+============================================================
+
+Computer assembly is intended to be physical rather than entirely
+interface-based.
+
+GPU installation: 1. The player obtains a GPU. 2. The player physically
+picks up and carries the GPU. 3. The player brings it to their computer
+or mining rig. 4. The player manually positions and places it into an
+available slot. 5. Once installed, the GPU contributes to the rig’s
+mining output.
+
+The intended direction is manual physical placement. Installation should
+feel like placing an actual component into a computer, rather than
+selecting a GPU from a menu.
+
+Motherboards and capacity: - Each motherboard has a fixed number of GPU
+slots. - Different motherboards may support different numbers of GPUs. -
+Better motherboards can provide greater capacity.
+
+Rig expansion: - Players can expand their mining setups using additional
+physical expansion hardware, such as frames or expansion boards. - This
+works alongside motherboard upgrades rather than replacing them. - The
+exact expansion parts, limits, compatibility rules, and progression
+costs have not yet been decided.
+
+This creates two possible layers of progression: - Upgrade the
+motherboard to gain more available slots. - Expand the overall mining
+rig to accommodate a larger setup.
+
+The exact assembly controls, component compatibility, and visual design
+remain to be developed.
+
+============================================================ 5. EARNING
+MONEY: CRYPTO MINING
+============================================================
+
+Players earn in-game crypto by mining with installed GPUs.
+
+Mining behavior: - Mining is automatic once GPUs are installed in a
+mining rig. - Players do not need to repeatedly start mining sessions. -
+Better or rarer GPUs generate more crypto. - Multiple installed GPUs
+contribute to the player’s total mining output. - Larger mining setups
+can increase income.
+
+Offline mining: - Players can earn a limited amount of mining income
+while away from the game. - Offline earnings are capped by a maximum
+offline duration. - Four hours is an initial proposed cap, not a
+finalized value. - The intended system is to calculate earnings from the
+player’s mining setup and the time spent away, up to the cap.
+
+Converting crypto into cash: 1. The player initiates the exchange on
+their computer. 2. The exchanged amount becomes available to claim at
+the bank in the center of the map.
+
+This creates a choice for players: keep crypto available in their
+computer or exchange it for cash. The idea is that unexchanged crypto
+could be targeted by hackers.
+
+The exact mining rates, offline calculation, economy balance, and
+exchange rules remain undecided.
+
+============================================================ 6. HACKING,
+STEALING, AND OTHER PLAYERS
+============================================================
+
+Players can attempt to hack other players’ computers.
+
+The original concept includes the possibility of a successful hack
+allowing an attacker to: - Unlock another player’s office - Steal PC
+components, especially GPUs - Steal the target player’s current,
+unexchanged crypto balance
+
+GPU stealing and escape: - A stolen GPU enters the thief’s carried
+inventory. - The thief must successfully return to their own office to
+keep the stolen GPU permanently. - If the thief dies or respawns before
+successfully returning, the unbanked stolen GPU is lost and returns to
+its victim’s inventory. - If the thief leaves the game before
+successfully returning, the unbanked stolen GPU is lost and returns to
+its victim’s inventory.
+
+This makes successfully escaping with stolen hardware an important part
+of the stealing loop.
+
+Inventory limits: - Players initially carry around 2–3 GPUs at a time. -
+Some special GPUs may take up more inventory space. - Obtainable
+backpacks may increase carrying capacity.
+
+Still undecided: - Whether installed GPUs can be stolen directly. -
+Whether stealing installed GPUs requires overcoming office security. -
+How hacking attempts begin and resolve. - How office access and locks
+work. - Whether unexchanged crypto can be stolen and under what
+conditions. - How victims recover or protect themselves. - How stolen
+hardware is handled if other edge cases occur.
+
+The stealing of installed GPUs has not yet been decided. Do not treat
+direct removal, protected equipment, or conditional stealing as a
+confirmed mechanic.
+
+============================================================ 7.
+CYBERSECURITY AND COMPUTER HARDWARE
+============================================================
+
+A player’s hacking and defense capabilities are influenced by the
+components in their computer.
+
+CPU: - Affects hacking speed and defense speed. - Influences overall
+hacking capabilities and available defensive capabilities.
+
+RAM: - RAM speed affects how quickly hacking actions can be performed. -
+RAM capacity determines how many hacking or defensive features can be
+handled at the same time. - RAM is envisioned as the computer’s active
+working space or “inventory” during a hack or defense.
+
+SSD: - SSD storage capacity determines how many hacking and defensive
+features can be installed. - RAM capacity limits how many of those
+installed features can be used at once. - This creates a strategic
+choice: players must decide which features to install and which to use
+together.
+
+Other PC components may also influence hacking or defense, but their
+specific roles have not yet been decided.
+
+The relationship between the physical mining rig and the computer used
+for hacking and defense still needs to be designed in detail.
+
+============================================================ 8. HACKING
+AND DEFENSE FEATURES
+============================================================
+
+-   Players can buy hacking and defensive features through a web
+    interface on their in-game computer.
+-   These features are purchased using in-game crypto.
+-   Features have different strengths and weaknesses.
+-   Players choose features based on their preferred hacking strategy
+    and the target or situation they want to handle.
+-   The goal is for hardware and feature selection to create strategy,
+    rather than making the game depend only on who owns the most
+    expensive components.
+
+An occasional NPC hacker may sell USB drives containing hacking skills
+or abilities.
+
+The specific abilities, costs, limitations, and counterplay have not yet
+been decided.
+
+============================================================ 9. INTENDED
+GAME FEEL ============================================================
+
+The game should combine strategy with accessible progression.
+
+-   It does not need to be extremely complex or overly strategic.
+-   Players should be able to feel a steady sense of progression,
+    similar to the satisfying progression found in Roblox games.
+-   Hardware choices and hacking/defense features should add meaningful
+    decisions without overwhelming players.
+-   Physical assembly should make collecting and installing hardware
+    feel satisfying.
+-   Automatic mining should let players focus on building, upgrading,
+    exploring, and competing rather than repeatedly managing mining
+    sessions.
+
+============================================================ 10.
+CURRENTLY ENVISIONED PLAYER LOOP
+============================================================
+
+1.  Buy or obtain PC components.
+2.  Physically carry GPUs to the computer or mining rig.
+3.  Manually install GPUs into available slots.
+4.  Upgrade the motherboard or expand the mining rig.
+5.  Automatically generate crypto through mining.
+6.  Accumulate limited offline earnings while away from the game.
+7.  Exchange crypto for cash through the in-game computer.
+8.  Claim the cash at the central bank.
+9.  Spend money on better or rarer components.
+10. Install hacking or defensive features using crypto.
+11. Improve the office, mining setup, hacking capabilities, or defenses.
+12. Attempt to hack or steal from other players, or defend against them.
+13. If carrying stolen GPUs, successfully return to the office to keep
+    them permanently.
+14. Continue progressing through hardware upgrades and competition.
+
+This is an updated interpretation of the current concept, not a
+finalized gameplay sequence. The exact order and details remain open.
+
+============================================================ 11. CURRENT
+DECISIONS AND PROPOSED VALUES
+============================================================
+
+Confirmed planning decisions: - Physical, manual GPU placement. -
+Motherboards have fixed GPU slot capacities. - Mining rigs can also be
+expanded with additional hardware. - Mining is automatic while the
+player is in the game. - Offline mining is limited rather than
+unlimited. - Stolen GPUs enter the thief’s carried inventory. - A thief
+must return to their office successfully to keep stolen GPUs. - Unbanked
+stolen GPUs are lost on death/respawn or leaving the game, and return to
+the victim’s inventory. - Initial carrying capacity is around 2–3
+GPUs. - Special GPUs may take up more inventory space. - Backpacks can
+be obtained to increase carrying capacity.
+
+Proposed values that are not finalized: - Four-hour offline mining
+cap. - Exact GPU slot counts for each motherboard. - Exact starting
+inventory capacity and backpack upgrades. - Mining rates and hardware
+prices.
+
+These decisions describe the current planning direction. They are not
+necessarily final implementation requirements.
+
+============================================================ 12. OPEN
+QUESTIONS FOR FUTURE BRAINSTORMING
+============================================================
+
+-   How realistic should PC compatibility and assembly be?
+-   What should the physical GPU placement controls look and feel like?
+-   Which components, beyond CPU, RAM, SSD, and GPU, will affect
+    gameplay?
+-   What expansion hardware will mining rigs use?
+-   How exactly will hacking attempts and defenses work?
+-   Can installed GPUs be stolen, and what security conditions apply?
+-   What can a successful attacker steal, and how much?
+-   How can players recover after being hacked?
+-   How long should mining and progression take?
+-   What should the offline mining cap be?
+-   How will players exchange crypto for cash, and what risks apply
+    before the cash is claimed?
+-   How will rare component stock and NPC merchant appearances work?
+-   How will backpacks and special GPU inventory sizes work?
+-   What will the first playable version include?
+-   Which ideas will the team keep, change, or remove?
+
+============================================================ 13. CURRENT
+STATUS AND NEXT STEP
+============================================================
+
+This document updates the initial concept with decisions made during
+early planning. The game is still in the design stage. Many mechanics
+remain open, and the concept should continue to be discussed with the
+team.
+
+The next step is to continue brainstorming the unresolved mechanics,
+then define a small first playable prototype.
+
+The first prototype should focus on a manageable slice of the core
+experience rather than attempting to build every planned system at once.

@@ -1,0 +1,27 @@
+Game title: Steal A Computer!
+
+Initial game concept idea: The game will be about building computers, accurate to irl PC building, the players will assemble their very own PC with computer components they handpicked themselves.
+
+Each player will have their own area that will look like an office, the world building of the game will be city themed, their area or office will be fully managed by the computers they built themselves.
+
+In the center of the city is a computer component store where players can buy computers component to build their computers. Some items and components will frequently be in stock, but the rare, more powerful and uncommon components are less likely to be in stock and will appear less times and have less stocks. The GPU especially will be rare than other PC components
+
+Where players get their money: Players will earn money through crypto mining then exchanging those credits for cash. The GPU will be the component that is responsible for mining, the better and rare the GPU, the more crypto it mines. In their offices, the player can also have multiple GPUs for mining and have them in racks other than just their PC so they can mine money and earn more cash to but better components
+
+The hacking and securing: This is the mechaninc of the game that I thought about. Since players offices are managed by their computers, the security falls into that as well. So players can hack other players computers then unlock their offices which let them steal their components, especially, their GPUs, or they can simply hack their computers and still their current crypto balance(that is why exchanging crypto to cash is a mechanic). That said, players can also defend their offices and computers from hacks with their cyber security
+
+How will hacking and defending work: Since players can build their PCs, their hacking and defending capablities are determined by how powerful their PC componments are. It will be affected by the CPU and RAM mainly, but also other components.
+-CPU: Hacking speed, defending speed and overall hacking cabalities as well as defenfind features
+-RAM Hacking speed, the faster the ram, the faster hacking can be done. The higher the ram storage, it can handle more hacking and defending features at the moment a hack or defend is happening basically the inventory of your computer while a hack or defend is happening
+-SSD: The more the storage, the more hacking and defending features it can install. So basically, the players can install hacking and defending features, but how many can they actually use depends on their RAM capabilities, so they will have to pick. This is a strategic sense for the game so it isnt just about who has a better components. this is the armory
+
+The hacking and defending features/skills are abilities that can be bought and installed through the computer's web using crypto currency. Features will have their strength and their weaknesses so players will have to choose based on what they wanna hack and how they wanna do it
+
+
+It does now have to super complex and strategic so players can progressively feel that sense of easy progression in a roblox game, but it is mixed with strategic sense
+
+To exchange crypto to cash, the players will have to do so in their computers, then claim the cash at the bank
+
+
+To keep players off their offices, thee store and the bank will be right at the middle of the map, the offices will surround it in circle. There will also be an NPC who will spawn occasionaly in the middle of the map. A hacker that sells usb containing hacking skills, a GPU merchant that will sell rare limnited stock GPU
+

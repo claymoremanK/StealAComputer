@@ -1,0 +1,14 @@
+# Rojo / build output
+*.rbxl.bak
+*.rbxlx.bak
+build/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets — never commit these
+.env
+*.secret
