@@ -12,3 +12,6 @@ Thumbs.db
 # Secrets — never commit these
 .env
 *.secret
+# Roblox place files (back these up separately)
+*.rbxl
+*.rbxlx
