@@ -1,1 +1,1 @@
-print("Rojo sync works")
+print("Rojo live synchronization verified!")
